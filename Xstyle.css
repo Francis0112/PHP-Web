@@ -1,0 +1,220 @@
+
+body {
+	font-family: all;
+	color: white;
+	margin: 10px;
+	background-color: gray;
+
+
+}
+
+#main {
+	text-align: center;
+	font size: larger;
+	border: orange 4px solid;
+	border-radius: 0px 10px 0px 10px;
+	margin: 10px;
+}
+
+
+/*====================================PARAGRAPH=====================================*/
+
+#paragraph {
+	font-size: medium;
+	padding: 0px 0px 3px 40px;
+	border: 3px orange solid;
+	margin: 0px;
+	border-radius: 0px 10px 0px 10px;
+}
+
+#paragraph::first-letter {
+	font-weight: bold;
+	color: skyblue;
+	font-size: 29px;
+}
+
+#paragraph p:nth-child(even) {
+	background-color: orange;
+}
+
+
+p.p2 {
+	font-size: medium;
+	padding: 20px 20px 20px 50px;
+	border-width: 3px;
+	border-color: orange;
+	border-style: solid;
+	margin-right: 500px;
+	margin-top: 0px;
+	border-radius: 0px 10px 0px 10px;
+}
+
+.highlight {
+	background-color: blue;
+}
+
+
+a:hover {
+	color: white;
+}
+
+/*=====================================HEADER========================================*/
+h1.h1 {
+	text-align: center;
+	font size: larger;
+	border: orange 3px solid;
+	border-radius: 5px;
+	padding: 10px;
+	text-shadow: 3px 3px 3px purple;
+	font-size: 50px;
+	color: black;
+
+
+}
+h2.h2 {
+	font-size: larger;
+	color: red;
+}
+
+
+/*====================================IMAGES===========================================*/
+
+.food {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 15px;
+	border: medium dashed white;
+	background-color: green;
+	border-radius: 0px 10px 0px 10px;
+}
+.food:hover {
+	opacity: 0.4;
+}
+.ADS {
+	border-radius: 10px;
+	float: right;
+	position: fixed;
+	top: 73%;
+	left: 82%;
+	opacity: 0.5;
+}
+.ADS:hover {
+	opacity: 1;
+
+}
+
+/*=======================================URL================================================*/
+
+#uls ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#uls ul li a {
+	text-decoration: none;
+	color: black;
+	background-color: red;
+	display: block;
+	width: 62px;
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+	border-radius: 8px;
+}
+
+#uls ul li a:hover {
+	background-color: purple;
+}
+
+#nav {
+	background-color: green;
+	height: 28px;
+	border-radius: 6px;
+
+}
+
+#nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+#nav li {
+
+	display: inline;
+	vertical-align: middle;
+	padding: 1px;
+}
+#nav a {
+	text-decoration: none;
+	vertical-align: middle;
+	font-family: all;
+	font-size: 25px;
+	color: red;
+	padding: 0px 0px 0px 25px;
+	text-align: left;
+}
+#nav a:hover {
+	color: black;
+	background-color: white;
+}
+
+#button {
+
+}
+#button ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+#button li {
+	display: inline;
+	margin: 10px;
+}
+#button a {
+	background-color: white;
+	border-color: red;
+	border-width: 2px;
+	border-style: solid;
+	text-align: center;
+	box-sizing: border-box;
+	line-height: 80px;
+	font-size: 22px;
+	font-weight: bold;
+	padding: 15px;
+	border-radius: 8px;
+	text-decoration: none;	
+}
+
+#button a:hover {
+	background-color: gray;
+	color: black;
+}
+/*====================================================Form=================================================*/
+
+#form1 {
+	background-color: lightgray;
+	box-shadow: inset 0 0 15px black;
+	display: table;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.row {
+	display: table-row;
+}
+.row label {
+	display: table-cell;
+	padding: 2px;
+	text-align: right;
+	color: black;
+
+}
+.row input {
+	display: table-cell;
+	padding: 2px;
+	color: black;
+}

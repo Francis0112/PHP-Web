@@ -1,0 +1,55 @@
+@media only screen(max-width: 600px) {
+
+
+}
+
+
+
+
+
+/*===========================For Android pixels=============================*/
+@media only screen(max-width: 400px) {
+body {
+	margin: 0px;
+}
+
+#container {
+	max-width: 400px;
+	margin: 0px auto;
+}
+
+.header {
+	background-color: blue;
+	height: 75px;
+	width: 396px;
+}
+
+#nav {
+	display: none;
+}
+
+#ADS {
+	display: none;
+}
+
+.main {
+	background-color: orange;
+	float: left;
+	width: 396px;
+	height: 600px;
+}
+
+.sidebar {
+	display: none;
+
+}
+
+#footer {
+	float: bottom;
+	background-color: blue;
+	height: 50px;
+	width: 396px;
+	clear: both;
+}
+
+}
